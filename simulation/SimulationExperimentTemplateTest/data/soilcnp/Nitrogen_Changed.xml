@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNNitrogen>
+	<type>
+	    <parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+		<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		  
+		</parameter>
+		<parameter id="FracNH4Volat">0</parameter> <!-- default in SoilCN code: 0.2, Myriams code: 0 -->
+		<parameter id="Bactnc">0.1666667</parameter> <!-- default in SoilCN code: 0.2, Myriams code: 0.1666667 -->
+		<parameter id="Critinflow">0.7</parameter> <!-- default in SoilCN code: 0.5, Myriams code: 0.7 -->
+		<parameter id="Fungnc">0.08333</parameter>
+		<parameter id="Ligncmax">0.033</parameter> <!-- default in SoilCN code: 0.05, Myriams code: 0.033 -->
+		<parameter id="Ligncmin">0.013</parameter>
+		<parameter id="Minncact">0.04</parameter> <!-- default in SoilCN code: 0.033, Myriams code: 0.04 -->
+		<parameter id="Ncsommicro">0.125</parameter>
+		<parameter id="Ninorgcrit">50</parameter> <!-- default in SoilCN code: 25, Myriams code: 50 -->
+		<parameter id="Ratemicrobup">  <!-- Inorganic nitrogen uptake by microbial biomass; default: 0.01, min: 0.003, max: 0.15 -->
+			<value>0.2</value>   <!-- Myriam: 0.1, default: 0.01 (Min:0.003 Max: 0.3), CIRAD code: 0.3 -->
+			<value>0.1</value>   <!-- 0.2 -->
+			<value>0.1</value>   <!-- 0.2 -->
+			<value>0.1</value>
+		</parameter>
+		<parameter id="SOMStabilisationByTexture">0.75</parameter>   <!-- parameter S in Corbeels et al (2005), very sensitive to long-term C and N losses, sandy soil: 0.1, higher for clay, default: 0.75 -->
+</type>
+</SoilCNNitrogen>

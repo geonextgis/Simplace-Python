@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagementData>
+	<management>
+		<parameter id="location">AP5</parameter>
+<!-- 		<parameter id="Latitude">50.81</parameter> -->
+<!-- 		<parameter id="Altitude">62</parameter> -->
+<!-- 		<parameter id="SunInclination">-4.0</parameter> -->
+		
+		<!--* * Soil N, P and K mineralization -->
+		<parameter id="NMINS" description="total mineral soil N available at start of growth period [g/m^2]" unit="">3.</parameter>
+		<parameter id="RTNMINS" description="fraction of soil mineral N coming available per day [day-1]" unit="">0.025</parameter> <!-- default: 0.025 -->
+
+		<parameter id="PMINS" description="total mineral soil P available at start of growth period [g/m^2]" unit="">10.0</parameter>  <!-- now calculated via Pslim Component -->
+		<parameter id="RTPMINS" description="fraction of soil mineral P coming available per day [day-1]" unit="">0.025</parameter>
+
+		<parameter id="KMINS" description="total mineral soil K available at start of growth period [g/m^2]" unit="">40.0</parameter>    <!-- default: 20 -->
+		<parameter id="RTKMINS" description="fraction of soil mineral K coming available per day [day-1]" unit="">0.025</parameter>
+
+		<parameter id="KRF" description="" unit="">0.6</parameter>
+		<parameter id="NRF" description="" unit="">0.7</parameter>
+		<parameter id="PRF" description="" unit="">0.2</parameter>
+	</management>
+</ManagementData>
