@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNInitP>
+	
+	<type>
+		<parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+	<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		</parameter>
+		<parameter id="CellosesoilP">
+	    	<value>0</value>
+			<value>0</value>  <!-- added -->
+			<value>0</value>  <!-- added -->
+		    <value>0</value>  <!-- added -->
+		</parameter>
+		<parameter id="LigncellosesoilP">
+			<value>0</value>
+			<value>0</value>  <!-- added -->
+			<value>0</value>  <!-- added -->
+		    <value>0</value>  <!-- added -->
+		</parameter>
+		<parameter id="RootsoilP">
+			<value>0</value>
+			<value>0</value>  <!-- added -->
+			<value>0</value>  <!-- added -->
+		    <value>0</value>  <!-- added -->
+		</parameter>
+		<parameter id="MetabsoilP">
+			<value>10</value>
+			<value>0</value>  <!-- added -->
+			<value>0</value>  <!-- added -->
+		    <value>0</value>  <!-- added -->
+		</parameter>
+
+		<parameter id="CellosesurfP">0</parameter>
+		<parameter id="LigncellosesurfP">0</parameter>
+		<parameter id="BranchsurfP">0</parameter>
+		<parameter id="StemsurfP">0</parameter>
+		<parameter id="MetabsurfP">0</parameter>
+
+		<parameter id="OldSOMCP">0.7272727272</parameter>   <!-- default: 0.7272727272 -->
+		<parameter id="YoungSOMCP">1.3636363636</parameter>    <!-- default: 1.3636363636 -> hoher Wert -> niedrige Initialwerte -->
+	</type>
+</SoilCNInitP>
+

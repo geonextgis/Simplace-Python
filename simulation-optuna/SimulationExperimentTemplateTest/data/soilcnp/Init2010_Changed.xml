@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNInit>
+	<type>
+		<parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+		<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		</parameter>
+	<parameter id="CellosesoilC">  <!-- 	initial Amount of carbon in the cellulosic pool of belowground litter -->
+			<value>20000</value> 
+			<value>10000</value> 
+			<value>5000</value> 
+			<value>1000</value>
+		</parameter>
+		<parameter id="CellosesoilN">
+			<value>1200</value> 
+			<value>900</value> 
+			<value>500</value> 
+			<value>100</value>
+		</parameter>
+		<parameter id="LigncellosesoilC">
+			<value>100</value> 
+			<value>50</value> 
+			<value>10</value> 
+			<value>10</value>
+		</parameter>
+		<parameter id="LigncellosesoilN">
+			<value>10</value> 
+			<value>3</value> 
+			<value>1</value> 
+			<value>1</value>
+		</parameter>
+		<parameter id="RootsoilC">
+			<value>0</value>
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value>
+		</parameter>
+		<parameter id="RootsoilN">
+			<value>0</value>
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value>
+		</parameter>
+		<parameter id="MetabsoilC">
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value>
+		</parameter>
+		<parameter id="MetabsoilN">
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value> 
+			<value>0</value>
+		</parameter>
+
+	     <!-- soil surface (litter) C:  -->
+		<parameter id="CelloseSurfC">0</parameter>   <!-- 	initial Amount of carbon in the cellulose like pool of the surface litter in kg/ha-->
+		<parameter id="CellosesurfN">0</parameter>
+		<parameter id="LigncellosesurfC">0</parameter>  <!-- initial Amount of carbon in the lignocellulosic pool of the surface litter -->
+		<parameter id="LigncellosesurfN">0</parameter>
+		<parameter id="BranchsurfC">0</parameter>      <!-- 	initial Amount of carbon in the branch pool in surface litter -->
+		<parameter id="BranchsurfN">0</parameter>
+		<parameter id="StemsurfC">0</parameter>
+		<parameter id="StemsurfN">0</parameter>
+		<parameter id="MetabsurfC">0</parameter>  <!-- 	Amount of carbon in the metabolic pool of aboveground litter -->
+		<parameter id="MetabsurfN">0</parameter>
+
+
+		<parameter id="microLabCN">8</parameter>
+		<parameter id="microLabFrac">0.0215</parameter>  <!-- 	Labile microbs fraction in initial soil organic carbon -->
+		<parameter id="microRstCN">8</parameter>
+		<parameter id="microRstFrac">0.015</parameter>
+		<parameter id="OldSOMCN">8</parameter>
+		<parameter id="YoungSOMCN">15</parameter>   <!-- CN ratio in the initial young soil organic matter pool -->
+	</type>
+</SoilCNInit>

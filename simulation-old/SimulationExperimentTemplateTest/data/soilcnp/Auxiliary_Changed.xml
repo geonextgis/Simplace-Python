@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNAuxiliary>
+	<type>
+		<parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+		<parameter id="WaterEffectSwitch">On</parameter>
+		<parameter id="TimeDiv">1</parameter>
+	</type>
+</SoilCNAuxiliary>

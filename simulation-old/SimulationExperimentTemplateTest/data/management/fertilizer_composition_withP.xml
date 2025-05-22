@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fertilizerparameters>
+
+	<fertilizer>
+		<parameter id="Fertilizertype">Guelle</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in manure"> 0.003585 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in manure"> 0.003317 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in manure"> 0.001253 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.003585 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.011097 </parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.001110 </parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>
+		<parameter id="Fertilizertype">Jauche</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in manure"> 0.001707 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in manure"> 0.002519 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in manure"> 0.000358 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.001707 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0034146 </parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.00034146 </parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>
+		<parameter id="Fertilizertype">PK</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.083 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.0792 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+		<fertilizer>
+		<parameter id="Fertilizertype">PTotal</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 1.0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>
+		<parameter id="Fertilizertype">KTotal</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 1.0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">NTotal</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.7 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.3 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter> 
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 1.0</parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	
+	<fertilizer>	
+		<parameter id="Fertilizertype">KAS</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.135 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.135 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter> 
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.27 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>
+		<parameter id="Fertilizertype">DAP</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.09 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.09 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.2024 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.18 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">KASS</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.12 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.12 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter> 
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.24 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">KASSMG</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.12 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.12 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.24 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">ASS</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.07 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.19 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.26 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+				<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">ASS_st</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.075 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.185 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.26 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">SSA</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.21 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.21 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Harnstoff</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.46 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.46 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Harnstoff_st</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.46 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.46 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">YU</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.38 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.38 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Piamon</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.33 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.33 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Perlka</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.015 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.015 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">AHL_1</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.07 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.21 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.28 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">AHL_2</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.07 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.23 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.30 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+				<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">ALF</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.07 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.21 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.28 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Piasan</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.05 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.20 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.25 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">ALF_S</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.05 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.20 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.25 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">ASL</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.08 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.08 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Lenasol</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.035 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.115 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.15 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+			</fertilizer>
+	<fertilizer>	
+		<parameter id="Fertilizertype">Domamon</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.20 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.20 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+				<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	
+	<fertilizer>	
+		<parameter id="Fertilizertype">ATS</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.12 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.12 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	
+	
+	<fertilizer>	
+		<parameter id="Fertilizertype">Rinderstallmist</parameter> 
+		<!--  Fertililizer.CSV Angaben in g/m² TM. TM Gehalt Rindermist verrottet 25 % TM
+		values from LKSH https://www.lksh.de/fileadmin/dokumente/Landwirtschaft/Pflanze/Teaser/Duengung/Naehrstoffgehalte_organischer_Duenger.pdf 
+		     no distinction between org and anorg fixation of nutrients, we assume 20% is in anorg  and 80% is in org. form  -->
+		<parameter id="Nitrate" description="concentration of nitrate-N in fertilizer"> 0 </parameter>  <!-- 250 kg dry matter cattle manure contain 2 kg N, we assume that 10% of this is Nitrate-N  -->
+		<parameter id="Ammonium" description="concentration of ammonium-N in fertilizer"> 0.0016 </parameter> <!-- 20 % Ammoniumgehalt  -->
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.016 </parameter> <!-- 5000 kg dry matter cattle manure contain 41.51 kg K  -->
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.00088 </parameter> <!-- 250 kg dry matter cattle manure contain 1.3 kg P, we assume that 20% of this is anorg P -->
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate-N and ammonium-N in fertilizer"> 0.0016 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.36 </parameter> <!-- 60 t/ha Frischer Stallmist je Rotation, 25% TS-Gehalt, 36% C-Gehalt von TM -->
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0064</parameter> <!-- 250 kg dry matter cattle manure contain 2 kg N, we assume that 80% of this is org N  -->
+		<parameter id="OrganicP" description="concentration of Organic P in manure"> 0.00352</parameter> <!-- 250 kg dry matter cattle manure contain 1.3 kg P, we assume that 80% of this is org P -->
+</fertilizer>	
+	
+	<fertilizer>	
+		<parameter id="Fertilizertype">TSP</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter> 
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.2 </parameter> 
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0 </parameter> 
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0 </parameter> 
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+	
+	<fertilizer>	
+		<parameter id="Fertilizertype">60erKali</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.5 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer"> 0.0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+<fertilizer>	
+		<parameter id="Fertilizertype">Superphospate</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in fertilizer"> 0.0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in fertilizer">0.079 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.0 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0</parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0</parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>
+<fertilizer>
+		<parameter id="Fertilizertype">KleeNfixierung</parameter>
+		<parameter id="Nitrate" description="concentration of nitrate in fertilizer"> 0.135 </parameter>
+		<parameter id="Ammonium" description="concentration of ammonium in manure"> 0.135 </parameter>
+		<parameter id="Potassium" description="concentration of potassium in manure"> 0.0 </parameter>
+		<parameter id="Phosphorus" description="concentration of phosphorus in manure"> 0.0 </parameter>
+		<parameter id="NitrateAndAmmonium" description="concentration of nitrate and ammonium in fertilizer"> 0.27 </parameter>
+		<parameter id="OrganicC" description="concentration of Organic C in manure"> 0.0 </parameter>
+		<parameter id="OrganicN" description="concentration of Organic N in manure"> 0.0 </parameter>
+		<parameter id="OrganicP" description="concentration of Organic N in manure"> 0.0</parameter> <!-- dummy value -->
+	</fertilizer>									
+</fertilizerparameters>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SLIMProperties>
+	<type>
+		<parameter id="soiltype">AP5</parameter>
+		<parameter id="THICKL">0.03</parameter>
+		<parameter id="SEEDD">0.02</parameter>
+		<parameter id="MaxSoilEvaporationDepth">0.2</parameter>
+		<parameter id="MT">30</parameter>
+		<parameter id="MY">5</parameter>
+		<parameter id="MD">-1</parameter>
+		<parameter id="WMGENT">2.75</parameter>
+		<parameter id="WRGENT">9.10</parameter>
+		<parameter id="WMGENS">1.90</parameter>
+		<parameter id="WRGENS">11.60</parameter>
+<!-- ifwgen true=initial soil water content is calculated, false= initial soil water content is input -->		
+		<parameter id="IFWGEN">false</parameter>
+		<parameter id="ALFA">0.95</parameter>
+		<parameter id="DP">0.00</parameter>
+		<parameter id="WALIQ">3.00</parameter>
+		<parameter id="WM1S">10.30</parameter>
+		<parameter id="WRST">4.35</parameter>
+		<parameter id="WRSS">7.15</parameter>
+		<parameter id="SMD">0.0</parameter>
+		<parameter id="AREA">1.0</parameter>
+		<parameter id="BGEN">66.0</parameter>
+		<parameter id="ELIM">0.05</parameter>
+		<parameter id="SCMIN">0.2</parameter>
+		<parameter id="SCONC" unit="g m**-3">5.0</parameter>
+		<parameter id="HBS">0.3</parameter>
+		<parameter id="HBT">0.1</parameter>
+<!-- Maximum N uptake rate by roots 40 mgN per meter (?) per day -->
+		<parameter id="FLOWNR">40</parameter>
+		<parameter id="AMR1">0.32</parameter>
+		<parameter id="AMR2">0.1363</parameter>
+		<parameter id="TEMCO1">0d</parameter>
+		<parameter id="TEMCO2">0d</parameter>
+		<parameter id="AX">0.2</parameter>
+		<parameter id="AMEQ">1.0</parameter>
+
+		<parameter id="CalculateRunoffWater">true</parameter>
+		<parameter id="BulkDensityThresholdLower">0.7</parameter> 	<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+		<parameter id="BulkDensityThresholdMiddle">1.4</parameter> 	<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+		<parameter id="BulkDensityThresholdUpper">1.7</parameter>  	<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+		<parameter id="MinimalBDSeminalRootReductionFactor">-1</parameter>   	 
+
+		<parameter id="SoilStrengthParameter">1.2</parameter>         	 
+
+		<parameter id="SoilStrengthParameter">1.25</parameter>         	 
+
+		<parameter id="SoilStrengthParameter">1.0</parameter>         	 
+
+		<!-- parameter id="MaximalSeminalRootLengthPerDay">0.05</parameter -->  <!-- defined in crop file !!! -->
+		<parameter id="DeadRootsDevStage">1.2</parameter>
+		<parameter id="DailyDeadRootsRate">0.02</parameter>
+		<parameter id="MacroporeRootGrowthFactor">0.023</parameter>
+		<parameter id="BiomassLossRateAtPartitioning">0.1</parameter>		
+	</type>
+<!-- MinimalBDSeminalRootReductionFactor: Set to -1: Calculation based on lower and upper bulk density thresholds (Brisson et al. 2003); 
+                                                  value, e.g. 1: Calculation based on soil bulk density, soil texture (sand content) and a soil strength parameter (Williams and Izaurralde, 2005) -->
+<!-- SoilStrengthParameter: default: 1.25, Set to -1 to calculate based on soil bulk density, soil texture (sand content) and a soil strength parameter (Williams and Izaurralde, 2005) -->
+<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+<!-- BulkDensityThresholdLower: Below this soil bulk density the reduction factor for the elongation of seminal roots is 1 (no impedance for root elongation) -->
+ 
+</SLIMProperties>
+
+
+
+
+
+

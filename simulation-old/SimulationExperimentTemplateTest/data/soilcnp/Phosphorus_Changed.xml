@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNNitrogen>
+	<type>
+	    <parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+		<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		  	</parameter>
+		<parameter id="Bactpc">0.2</parameter>
+		<parameter id="CritinflowP">0.5</parameter>
+		<parameter id="Fungpc">0.08333</parameter>
+		<parameter id="Ligpcmax">0.05</parameter>
+		<parameter id="Ligpcmin">0.013</parameter>
+		<parameter id="Minpcact">0.033</parameter>
+		<parameter id="Pcsommicro">0.125</parameter>
+		<parameter id="Pinorgcrit">25</parameter>
+		
+		<parameter id="RatemicrobupP">
+			<value>0.03</value>
+			<value>0.001</value>
+			<value>0.001</value>
+			<value>0.001</value>
+		</parameter>
+	</type>
+	</SoilCNNitrogen>

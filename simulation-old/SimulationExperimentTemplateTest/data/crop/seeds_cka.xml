@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SeedsToSproutsProperties>
+
+<crop>
+  <parameter id="CropName" datatype="CHAR" unit="">SM</parameter> <!--spring wheat-->
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/gram_per_square_metre" description="Seed weight">12.5</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.40</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.32</parameter>
+</crop>  
+
+
+ <!-- ######################################################## Winter Wheat ############################################################################################ -->
+<crop>
+  <parameter id="CropName" unit="-">winter wheat</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>  
+
+ <!-- ######################################################## Winter Barley ############################################################################################ -->
+<crop>
+  <parameter id="CropName" unit="-">winter barley</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>  
+
+<crop>
+  <parameter id="CropName" unit="-">winter barley_2</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>
+
+<!-- ######################################################## Spring Barley ############################################################################################ -->
+<crop>
+  <parameter id="CropName" unit="-">spring barley</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>  
+
+
+
+<!-- ######################################################## Spring Barley ############################################################################################ -->
+<crop>
+  <parameter id="CropName" unit="-">oat</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>  
+
+
+<!-- ######################################################## Winter Rape ############################################################################################ -->
+<crop>
+  <parameter id="CropName" unit="-">winter rape</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop>  
+
+<crop>
+  <parameter id="CropName" unit="-">KM</parameter> 
+  <parameter id="SeedWeight" datatype="DOUBLE" unit="" description="">5.0</parameter>
+  <parameter id="DailyFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to roots">0.04</parameter>
+  <parameter id="TotalFractionRoots" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to roots">0.60</parameter>
+  <parameter id="DailyFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/reciprocal_day" description="Daily fraction of seed weight that is distributed to leaves">0.05</parameter>
+  <parameter id="TotalFractionLeaves" datatype="DOUBLE" unit="http://www.wurvoc.org/vocabularies/om-1.8/one" description="Total fraction of seed weight that is distributed to leaves">0.22</parameter>
+</crop> 
+
+</SeedsToSproutsProperties>

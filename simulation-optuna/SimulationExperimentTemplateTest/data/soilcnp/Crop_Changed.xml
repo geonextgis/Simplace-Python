@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNCrop>
+	<type>
+		<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		</parameter>
+		<parameter id="soiltype">AP5</parameter>  <!-- values from Myriam (w.barley)-->
+		<parameter id="Celroot">0.7</parameter>  <!-- Cellulose ratio of the root pool -->
+		<parameter id="Celshoot">0.4</parameter>  <!-- wbarley: 0.8, potato: 0.4 -->
+		<parameter id="Ligbranch">0.28</parameter>
+		<parameter id="Ligroot">0.08</parameter>
+		<parameter id="Ligshoot">0.08</parameter>  <!-- Lignin ratio of the shoot pool (normally measured value) -->
+		<parameter id="Ligstem">0.28</parameter>
+<!-- WINTERBARLEY from Myriams paper -->
+	</type>
+</SoilCNCrop>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<SoilCNCarbon>
+
+<!-- The model’s sensitivity to key parameters are: dmet, dcel, dy, αres, βlig and S, see Corbeels et al (2005)
+		
+			//		 s.Tempact.getValue()[lnum] = 47.9 / (1 + exp(106 / (SoilTemp[lnum] + 19)));  // RothC
+ <var id="spinupdays" datatype="INT">0</var> 
+				 	  <parameter id="carbon" unit="g/100g" description="Carbon content">
+	     	<value>0.91</value> 
+	     	<parameter id="SOMStabilisationByTexture">0.85</parameter>-->
+
+	<type>
+		<parameter id="soiltype" unit="-" description="type of soil">AP5</parameter>
+		<parameter id="depth" unit="m" description="Low end of the soil layer">
+<!-- 		  <value>0.08</value> -->
+<!-- 		  <value>0.61</value> -->
+<!-- 		  <value>0.91</value> -->
+<!-- 		  <value>2</value> -->
+		  
+		  <value>0.1</value>
+		  <value>0.5</value>
+		  <value>1.0</value>
+		  <value>2.0</value>
+		</parameter>
+
+	<parameter id="Lignfct">0.7</parameter>  <!-- Lignine/lignocellulose -->
+	<parameter id="Brabove">1</parameter> <!-- default in SoilCN code: 0, Myrams code: 1 -->
+	<parameter id="Fmicrolab">0.4</parameter> <!-- alpha_lab: very sensitive, low value increases soil microbial biomass!	Fraction of labile microbes (default sandy soil: 0.7 or 1; relates to soil texture, interacts with the decomposition rates of labile and + resistant fraction of the microbial pool , dimensionless-->
+		<!-- default in SoilCN code: 0.4, Myrams code: 0.7 -->
+
+	<parameter id="Li">3</parameter> <!-- ßlig: 	Lignin effect on decomposition of the ligno-cellulose pool -->
+		<!-- default in SoilCN code: 2, Myrams code: 3 -->
+
+		<parameter id="Ymin">  <!--  ??	Minimum microbial efficiency from reduction because of a lack of inorganic nitrogen -->
+			<value>0.4</value>  <!-- in Myrams code: 0.4 -->
+			<value>0.4</value>
+			<value>0.4</value>
+			<value>0.4</value>
+		</parameter>
+
+			<parameter id="Kdecomp1">  <!-- 	Decomposition rates of the metabolic pool of surface litter, dmet: 180 years^-1 (0.000052 days^-1)-->
+		    <value>0.33</value> <!-- default: 0.0, in Myrams code: 0.33 -->
+			<value>0.33</value> 
+			<value>0.33</value> 
+			<value>0.33</value> 
+	        </parameter>
+					
+					
+	<parameter id="Kdecomp2">     <!-- 	parameter dmet: Decomposition rates of the metabolic pool of soil litter -->  
+			<value>0.33</value>      <!-- legume residues: 0.5 and 0.08-->
+			<value>0.33</value>    <!-- default: 0.0, in Myrams code: 0.33 -->
+			<value>0.33</value> 
+			<value>0.33</value> 		
+		    </parameter>
+		
+		<parameter id="Kdecomp3">   <!-- dcel: Decomposition rates of the (holo?)cellulotic pool of surface litter, default: 0.049863 -->
+			<value>0.049863</value>     <!--  treatment differences in case of FYM application  -->
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+	        </parameter>
+	
+	<parameter id="Kdecomp4">   <!-- 	Decomposition rates of the cellulotic pool of soil litter d^-1, default: 0.049863 -->
+			<value>0.049863</value>  <!--  slightly impacts SOC over decades  -->
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+		    </parameter>
+		
+	<parameter id="Kdecomp5">   <!-- 	Decomposition rates of the ligno-cellulotic pool of surface litter, default: 0.049863  (wood? default: 5.5 years ^-1) -->
+			<value>0.049863</value>   
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+	    	</parameter>
+		
+	<parameter id="Kdecomp6">   <!-- 	(dlig-cel) Decomposition rates of the ligno-cellulotic pool (dt: Lignocellulose) of soil litter, default: 0.049863 -->
+			<value>0.049863</value>
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+			<value>0.049863</value> 
+		    </parameter>
+		
+	<parameter id="Kdecomp10">          <!-- 	(dml) Decomposition rates of the labile microbial biomass pool, default: 0.2 -->
+			<value>0.2</value>    
+			<value>0.2</value> 
+			<value>0.2</value> 
+			<value>0.2</value> 
+		    </parameter>
+		
+	<parameter id="Kdecomp11">            <!-- parameter dmr, Decomposition rates of the resistant microbial biomass pools, default: 0.004986 -->
+			<value>0.01</value>      <!-- 0.008 very sensitive,  high values increase treatment differences (with/without farmyard manure application); low value, steeper curve (upward)--> 
+			<value>0.004986</value> 
+			<value>0.004986</value> 
+			<value>0.004986</value> 
+	    	</parameter>
+		
+		
+			<parameter id="Kdecomp12">  <!-- parameter dy	Decomposition rates of the young SOM pool, default: 0.02 and 0.002  -->
+    		<value>0.017</value>        <!-- 0.008 very sensitive - niedriger Wert hebt SOC Kurve an --> <!-- 0.0015 -->
+			<value>0.002</value> 
+			<value>0.002</value> 
+			<value>0.002</value> 
+		    </parameter>
+		
+		
+			<parameter id="Kdecomp13">   <!-- 	Decomposition rates of the old SOM pool, default: 0.000001-->
+		    <value>0.00078</value>      <!-- 0.000255  very sensitive (slope of Corg curve)  -->  <!-- 0.000057 -->
+			<value>0.000001</value> 
+			<value>0.000001</value> 
+			<value>0.000001</value> 
+	    	</parameter>
+	    	
+	    	<parameter id="Kdecomp14">
+			<value>0.0000</value>
+			<value>0.0000</value>
+			<value>0.0000</value>
+			<value>0.0000</value>
+			
+					</parameter>
+					
+		<parameter id="Kdecomp15">
+			<value>0.000001</value>
+			<value>0.000001</value>
+			<value>0.000001</value>
+			<value>0.000001</value>
+			
+		</parameter>
+	    	
+      <parameter id="MineralisationDepth">0.35</parameter>
+</type>
+</SoilCNCarbon>

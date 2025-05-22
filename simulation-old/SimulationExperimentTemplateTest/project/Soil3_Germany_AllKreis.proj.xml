@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE projectdata PUBLIC "-//SIMPLACE/DTD PRJ 1.0//EN" "http://simplace.net/dtd/SimProject_4_2.dtd">
+
+<projectdata>
+	<interfaces>
+		<interface id="projectdata" type="CSV">
+			<poolsize>200</poolsize>
+			<divider>,</divider>
+			<filename>${_WORKDIR_}/SimulationExperimentTemplateTest/project/project_file.csv</filename>
+		</interface>
+		<interface id="weatherfile" type="CSV">
+			<poolsize>2</poolsize>
+			<divider />
+			<!-- <filename>${_DATADIR_}/DWD_climate_data/germany/gridbased_weatherfiles/Vol3/transformed1x1/${vRow}/daily_mean_RES1_C${vColumn}R${vRow}.csv.gz</filename> -->
+			<filename>${_WORKDIR_}/SimulationExperimentTemplateTest/data/weather/daily_mean_RES1_C${vColumn}R${vRow}.csv.gz</filename>
+<!-- <filename>${_DATADIR_}/${vRow}/daily_mean_RES1_C${vColumn}R${vRow}.csv.gz</filename> -->
+		</interface>
+		<interface id="crop_growth" type="CSV">
+			<poolsize>5000</poolsize>
+			<divider>;</divider>
+			<filename>${_OUTPUTDIR_}/daily/${vLocationID}_daily.csv</filename>
+		</interface>
+		<interface id="lintul5yearly" type="CSV">
+			<poolsize>100</poolsize>
+			<divider>;</divider>
+			<filename>${_OUTPUTDIR_}/yearly/${vLocationID}_yearly.csv</filename>
+		</interface>	
+	</interfaces>
+	<projects>
+<!-- 	  <var id="vCO2StartYear" datatype="INT">2000</var> -->
+		<resource id="proj" interface="projectdata">
+			<header>
+				<var id="projectid" datatype="CHAR" key="projectid" />
+				<var id="simulationid" datatype="CHAR" key="simulationid" />
+				<var id="vColumn" datatype="INT" />
+				<var id="vRow" datatype="INT" />
+				<var id="vLocationID" datatype="INT" />
+				<var id="vlat" datatype="DOUBLE" />
+				<var id="vlon" datatype="DOUBLE" />
+				<var id="vNUTSID" datatype="CHAR" />
+				<var id="vSTATE_ID" datatype="CHAR" />
+				<var id="vSTATE_NAME" datatype="CHAR" />
+<!-- 				<var id="vNAME_2" datatype="CHAR" /> -->
+<!-- 				<var id="vNAME_3" datatype="CHAR" /> -->
+<!-- 				<var id="vMain_soil" datatype="CHAR" /> -->
+			</header>
+		</resource>
+	  </projects>
+</projectdata>
+
