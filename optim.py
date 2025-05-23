@@ -1,5 +1,6 @@
 from lxml import etree
 import yaml
+import numpy as np
 import optuna
 import subprocess
 import logging
@@ -169,7 +170,6 @@ class SimplaceOptimizer:
             config = yaml.safe_load(config_file)
         
         crop_name = config['crop_name']
-        
         config = config[self.device]
         
         single_value_params = config.get('single_value_params', {})
@@ -180,7 +180,7 @@ class SimplaceOptimizer:
             if param_spec['type'] == 'int':
                 suggested_value = trial.suggest_int(param_id, param_spec['low'], param_spec['high'])
             elif param_spec['type'] == 'float':
-                precision = param_spec.get('precision', 5)
+                precision = param_spec.get('precision', 4)
                 suggested_value = round(trial.suggest_float(param_id, param_spec['low'], param_spec['high']), precision)
 
             self.update_single_value_param(root, param_id, crop_name, suggested_value)
@@ -193,7 +193,7 @@ class SimplaceOptimizer:
                     val = trial.suggest_int(f"{param_id}_{i}", bounds['low'], bounds['high'])
                     suggested_values.append(val)
             elif param_spec['type'] == 'float':
-                precision = param_spec.get('precision', 3)
+                precision = param_spec.get('precision', 4)
                 for i, bounds in enumerate(param_spec['values']):
                     val = round(trial.suggest_float(f"{param_id}_{i}", bounds['low'], bounds['high']), precision)
                     suggested_values.append(val)
@@ -207,12 +207,22 @@ class SimplaceOptimizer:
 
         # Run the simulation
         self.run_simplace()
-
+        
+        best_trial = 0
+        best_loss = 1e8
+        
         # Process results and evaluate loss
+        self.logger.info(f"Trial {trial.number}: Processing output...")
         result = self.process_result_fn()
         loss = self.loss_fn(result)
 
+        if loss <= best_loss:
+            best_loss = loss
+            best_trial = trial.number
+                    
         self.logger.info(f"Trial {trial.number} completed with loss: {loss:.4f}")
+        self.logger.info(f"Best is trial {best_trial} with value: {best_loss:.4f}.\n")
+
         return loss
 
     def run_optimization(self, direction='minimize', n_trials=30, study_name=None, storage=None):
@@ -241,4 +251,5 @@ class SimplaceOptimizer:
             storage=storage
         )
         study.optimize(self.objective, n_trials=n_trials)
+        
         return study

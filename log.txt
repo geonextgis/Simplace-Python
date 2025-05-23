@@ -1,120 +1,21 @@
-2025-05-23 16:43:26,968 - INFO - Trial 0: Suggested parameters - {'TEFFMX': 30.26007355151816, 'TSUM1': 967, 'TSUM2': 1309, 'RUETableRUE_0': 3.0285321799394262, 'RUETableRUE_1': 3.199946149664453, 'RUETableRUE_2': 3.90845041568756, 'RUETableRUE_3': 3.2774920580369984}
-2025-05-23 16:43:26,968 - INFO - Starting Simplace subprocess...
-2025-05-23 16:44:51,843 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:44:52,105 - INFO - Trial 0 completed with loss: 41.7128
-2025-05-23 16:44:52,113 - INFO - Trial 1: Suggested parameters - {'TEFFMX': 32.8443084803882, 'TSUM1': 1210, 'TSUM2': 1412, 'RUETableRUE_0': 3.431291116428839, 'RUETableRUE_1': 3.07921122146707, 'RUETableRUE_2': 3.742715450554526, 'RUETableRUE_3': 3.552396415553339}
-2025-05-23 16:44:52,115 - INFO - Starting Simplace subprocess...
-2025-05-23 16:46:12,932 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:46:13,153 - INFO - Trial 1 completed with loss: 20.6966
-2025-05-23 16:46:13,162 - INFO - Trial 2: Suggested parameters - {'TEFFMX': 34.83844566730774, 'TSUM1': 1684, 'TSUM2': 1467, 'RUETableRUE_0': 2.813321740889562, 'RUETableRUE_1': 3.4820662434173086, 'RUETableRUE_2': 3.1475872993401266, 'RUETableRUE_3': 3.796576046700549}
-2025-05-23 16:46:13,162 - INFO - Starting Simplace subprocess...
-2025-05-23 16:47:35,518 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:47:35,738 - INFO - Trial 2 completed with loss: 20.8602
-2025-05-23 16:47:35,747 - INFO - Trial 3: Suggested parameters - {'TEFFMX': 25.671781897833693, 'TSUM1': 1159, 'TSUM2': 1354, 'RUETableRUE_0': 3.418506426521065, 'RUETableRUE_1': 3.1919283909649616, 'RUETableRUE_2': 3.657854730815418, 'RUETableRUE_3': 3.154762863006905}
-2025-05-23 16:47:35,748 - INFO - Starting Simplace subprocess...
-2025-05-23 16:49:00,365 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:49:00,593 - INFO - Trial 3 completed with loss: 24.0389
-2025-05-23 16:49:00,600 - INFO - Trial 4: Suggested parameters - {'TEFFMX': 30.818643855956065, 'TSUM1': 1132, 'TSUM2': 1010, 'RUETableRUE_0': 2.912580586028662, 'RUETableRUE_1': 3.6441697261064854, 'RUETableRUE_2': 3.3140222037940514, 'RUETableRUE_3': 3.295077921314619}
-2025-05-23 16:49:00,600 - INFO - Starting Simplace subprocess...
-2025-05-23 16:50:28,365 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:50:28,589 - INFO - Trial 4 completed with loss: 26.0176
-2025-05-23 16:50:28,600 - INFO - Trial 5: Suggested parameters - {'TEFFMX': 25.844608545251013, 'TSUM1': 1226, 'TSUM2': 1155, 'RUETableRUE_0': 2.8504335317874956, 'RUETableRUE_1': 3.449837606912903, 'RUETableRUE_2': 3.4145268716182597, 'RUETableRUE_3': 3.9682847781466055}
-2025-05-23 16:50:28,600 - INFO - Starting Simplace subprocess...
-2025-05-23 16:51:50,595 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:51:50,811 - INFO - Trial 5 completed with loss: 19.7990
-2025-05-23 16:51:50,818 - INFO - Trial 6: Suggested parameters - {'TEFFMX': 31.132939706309593, 'TSUM1': 1492, 'TSUM2': 1223, 'RUETableRUE_0': 3.0892914610105464, 'RUETableRUE_1': 3.5092462053230475, 'RUETableRUE_2': 3.02363978939358, 'RUETableRUE_3': 3.4232918786921847}
-2025-05-23 16:51:50,819 - INFO - Starting Simplace subprocess...
-2025-05-23 16:53:11,948 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:53:12,169 - INFO - Trial 6 completed with loss: 14.8851
-2025-05-23 16:53:12,177 - INFO - Trial 7: Suggested parameters - {'TEFFMX': 32.079225151206145, 'TSUM1': 1146, 'TSUM2': 1368, 'RUETableRUE_0': 2.919953422889137, 'RUETableRUE_1': 3.5170539358929385, 'RUETableRUE_2': 3.3362839936041597, 'RUETableRUE_3': 3.227523153722928}
-2025-05-23 16:53:12,178 - INFO - Starting Simplace subprocess...
-2025-05-23 16:54:36,802 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:54:37,051 - INFO - Trial 7 completed with loss: 24.8649
-2025-05-23 16:54:37,060 - INFO - Trial 8: Suggested parameters - {'TEFFMX': 28.007549611992495, 'TSUM1': 1586, 'TSUM2': 1614, 'RUETableRUE_0': 3.04556573160723, 'RUETableRUE_1': 3.4319620859706235, 'RUETableRUE_2': 3.4643714680429962, 'RUETableRUE_3': 3.1251535048232486}
-2025-05-23 16:54:37,061 - INFO - Starting Simplace subprocess...
-2025-05-23 16:56:02,697 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:56:02,911 - INFO - Trial 8 completed with loss: 15.9478
-2025-05-23 16:56:02,919 - INFO - Trial 9: Suggested parameters - {'TEFFMX': 34.02009455973536, 'TSUM1': 969, 'TSUM2': 972, 'RUETableRUE_0': 2.7343606632444235, 'RUETableRUE_1': 3.9525949468088566, 'RUETableRUE_2': 3.0968874811829545, 'RUETableRUE_3': 3.150082993040286}
-2025-05-23 16:56:02,920 - INFO - Starting Simplace subprocess...
-2025-05-23 16:57:23,979 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:57:24,238 - INFO - Trial 9 completed with loss: 41.5080
-2025-05-23 16:57:24,276 - INFO - Trial 10: Suggested parameters - {'TEFFMX': 39.24460725550983, 'TSUM1': 1425, 'TSUM2': 839, 'RUETableRUE_0': 2.5134914393281447, 'RUETableRUE_1': 3.8510016993406206, 'RUETableRUE_2': 3.003842148038111, 'RUETableRUE_3': 3.49681746667081}
-2025-05-23 16:57:24,277 - INFO - Starting Simplace subprocess...
-2025-05-23 16:58:47,275 - INFO - Simplace subprocess completed successfully.
-2025-05-23 16:58:47,503 - INFO - Trial 10 completed with loss: 13.7145
-2025-05-23 16:58:47,524 - INFO - Trial 11: Suggested parameters - {'TEFFMX': 39.47789080917989, 'TSUM1': 1452, 'TSUM2': 857, 'RUETableRUE_0': 2.523688506488102, 'RUETableRUE_1': 3.9190082278126046, 'RUETableRUE_2': 3.0122776254713695, 'RUETableRUE_3': 3.582269814170338}
-2025-05-23 16:58:47,524 - INFO - Starting Simplace subprocess...
-2025-05-23 17:00:06,972 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:00:07,199 - INFO - Trial 11 completed with loss: 14.0124
-2025-05-23 17:00:07,220 - INFO - Trial 12: Suggested parameters - {'TEFFMX': 39.76381810040588, 'TSUM1': 1407, 'TSUM2': 841, 'RUETableRUE_0': 2.5272132371549674, 'RUETableRUE_1': 3.9982571622593053, 'RUETableRUE_2': 3.200673742112806, 'RUETableRUE_3': 3.600732820222697}
-2025-05-23 17:00:07,221 - INFO - Starting Simplace subprocess...
-2025-05-23 17:01:32,948 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:01:33,209 - INFO - Trial 12 completed with loss: 13.7509
-2025-05-23 17:01:33,235 - INFO - Trial 13: Suggested parameters - {'TEFFMX': 39.69269665962386, 'TSUM1': 1380, 'TSUM2': 812, 'RUETableRUE_0': 2.5100978956639417, 'RUETableRUE_1': 3.7735448319534073, 'RUETableRUE_2': 3.204830147617247, 'RUETableRUE_3': 3.655987573583505}
-2025-05-23 17:01:33,236 - INFO - Starting Simplace subprocess...
-2025-05-23 17:02:55,801 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:02:56,019 - INFO - Trial 13 completed with loss: 13.9050
-2025-05-23 17:02:56,039 - INFO - Trial 14: Suggested parameters - {'TEFFMX': 37.0133217967304, 'TSUM1': 1349, 'TSUM2': 1054, 'RUETableRUE_0': 2.672945541174383, 'RUETableRUE_1': 3.780434690463981, 'RUETableRUE_2': 3.2317347159912155, 'RUETableRUE_3': 3.4226573906268105}
-2025-05-23 17:02:56,039 - INFO - Starting Simplace subprocess...
-2025-05-23 17:04:19,200 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:04:19,425 - INFO - Trial 14 completed with loss: 14.6064
-2025-05-23 17:04:19,445 - INFO - Trial 15: Suggested parameters - {'TEFFMX': 37.38701700903018, 'TSUM1': 1553, 'TSUM2': 906, 'RUETableRUE_0': 2.6285936440995528, 'RUETableRUE_1': 3.815294716957908, 'RUETableRUE_2': 3.5924317795654614, 'RUETableRUE_3': 3.7203397969766345}
-2025-05-23 17:04:19,446 - INFO - Starting Simplace subprocess...
-2025-05-23 17:05:41,840 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:05:42,063 - INFO - Trial 15 completed with loss: 17.1109
-2025-05-23 17:05:42,083 - INFO - Trial 16: Suggested parameters - {'TEFFMX': 36.95278162010908, 'TSUM1': 1349, 'TSUM2': 1128, 'RUETableRUE_0': 3.176174529438529, 'RUETableRUE_1': 3.954084335099344, 'RUETableRUE_2': 3.275063009165085, 'RUETableRUE_3': 3.857381576511469}
-2025-05-23 17:05:42,084 - INFO - Starting Simplace subprocess...
-2025-05-23 17:07:07,841 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:07:08,083 - INFO - Trial 16 completed with loss: 14.6064
-2025-05-23 17:07:08,110 - INFO - Trial 17: Suggested parameters - {'TEFFMX': 38.23735888677005, 'TSUM1': 1661, 'TSUM2': 931, 'RUETableRUE_0': 2.616722201058222, 'RUETableRUE_1': 3.6929267907724572, 'RUETableRUE_2': 3.111027105091577, 'RUETableRUE_3': 3.436120890630652}
-2025-05-23 17:07:08,111 - INFO - Starting Simplace subprocess...
-2025-05-23 17:08:29,765 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:08:29,988 - INFO - Trial 17 completed with loss: 22.3957
-2025-05-23 17:08:30,008 - INFO - Trial 18: Suggested parameters - {'TEFFMX': 35.64241241387717, 'TSUM1': 1311, 'TSUM2': 802, 'RUETableRUE_0': 3.2113392234403073, 'RUETableRUE_1': 3.844508120610042, 'RUETableRUE_2': 3.3760490427891305, 'RUETableRUE_3': 3.684357840060122}
-2025-05-23 17:08:30,009 - INFO - Starting Simplace subprocess...
-2025-05-23 17:09:52,387 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:09:52,619 - INFO - Trial 18 completed with loss: 15.7976
-2025-05-23 17:09:52,641 - INFO - Trial 19: Suggested parameters - {'TEFFMX': 38.635549657557, 'TSUM1': 801, 'TSUM2': 1085, 'RUETableRUE_0': 2.723531559271927, 'RUETableRUE_1': 3.6526473054256994, 'RUETableRUE_2': 3.0037434229217213, 'RUETableRUE_3': 3.5054924295714427}
-2025-05-23 17:09:52,641 - INFO - Starting Simplace subprocess...
-2025-05-23 17:11:12,505 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:11:12,726 - INFO - Trial 19 completed with loss: 65.3775
-2025-05-23 17:11:12,748 - INFO - Trial 20: Suggested parameters - {'TEFFMX': 35.38540460330938, 'TSUM1': 1460, 'TSUM2': 1683, 'RUETableRUE_0': 2.5837046913531787, 'RUETableRUE_1': 3.9787369233952297, 'RUETableRUE_2': 3.5325817832447006, 'RUETableRUE_3': 3.3505011797699855}
-2025-05-23 17:11:12,748 - INFO - Starting Simplace subprocess...
-2025-05-23 17:12:34,407 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:12:34,642 - INFO - Trial 20 completed with loss: 12.4559
-2025-05-23 17:12:34,663 - INFO - Trial 21: Suggested parameters - {'TEFFMX': 36.27444835213787, 'TSUM1': 1453, 'TSUM2': 1646, 'RUETableRUE_0': 2.566538821678972, 'RUETableRUE_1': 3.9805359381353247, 'RUETableRUE_2': 3.5411475472517475, 'RUETableRUE_3': 3.3467741731319163}
-2025-05-23 17:12:34,664 - INFO - Starting Simplace subprocess...
-2025-05-23 17:14:01,589 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:14:01,827 - INFO - Trial 21 completed with loss: 12.2597
-2025-05-23 17:14:01,849 - INFO - Trial 22: Suggested parameters - {'TEFFMX': 36.066022345616624, 'TSUM1': 1522, 'TSUM2': 1664, 'RUETableRUE_0': 2.6166205405056195, 'RUETableRUE_1': 3.8995125424084387, 'RUETableRUE_2': 3.548135502944589, 'RUETableRUE_3': 3.3517909199356963}
-2025-05-23 17:14:01,850 - INFO - Starting Simplace subprocess...
-2025-05-23 17:15:24,676 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:15:24,887 - INFO - Trial 22 completed with loss: 13.3318
-2025-05-23 17:15:24,911 - INFO - Trial 23: Suggested parameters - {'TEFFMX': 35.68211111248116, 'TSUM1': 1550, 'TSUM2': 1687, 'RUETableRUE_0': 2.613593126627024, 'RUETableRUE_1': 3.887856502050408, 'RUETableRUE_2': 3.556923244248488, 'RUETableRUE_3': 3.009431738382676}
-2025-05-23 17:15:24,912 - INFO - Starting Simplace subprocess...
-2025-05-23 17:16:45,918 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:16:46,144 - INFO - Trial 23 completed with loss: 14.7158
-2025-05-23 17:16:46,165 - INFO - Trial 24: Suggested parameters - {'TEFFMX': 34.14827706461573, 'TSUM1': 1499, 'TSUM2': 1544, 'RUETableRUE_0': 2.775659998181953, 'RUETableRUE_1': 3.9915083148721333, 'RUETableRUE_2': 3.7003363861563656, 'RUETableRUE_3': 3.3520980551863824}
-2025-05-23 17:16:46,165 - INFO - Starting Simplace subprocess...
-2025-05-23 17:18:08,494 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:18:08,724 - INFO - Trial 24 completed with loss: 15.1815
-2025-05-23 17:18:08,748 - INFO - Trial 25: Suggested parameters - {'TEFFMX': 35.981927934335445, 'TSUM1': 1640, 'TSUM2': 1680, 'RUETableRUE_0': 2.6812894040598083, 'RUETableRUE_1': 3.906045228733598, 'RUETableRUE_2': 3.827445219953144, 'RUETableRUE_3': 3.3588047877739107}
-2025-05-23 17:18:08,748 - INFO - Starting Simplace subprocess...
-2025-05-23 17:19:35,054 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:19:35,270 - INFO - Trial 25 completed with loss: 13.6351
-2025-05-23 17:19:35,290 - INFO - Trial 26: Suggested parameters - {'TEFFMX': 33.395798362518185, 'TSUM1': 1286, 'TSUM2': 1556, 'RUETableRUE_0': 2.582829244706561, 'RUETableRUE_1': 3.7286388550862446, 'RUETableRUE_2': 3.5197440814866954, 'RUETableRUE_3': 3.220112784922422}
-2025-05-23 17:19:35,291 - INFO - Starting Simplace subprocess...
-2025-05-23 17:20:56,374 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:20:56,591 - INFO - Trial 26 completed with loss: 16.7228
-2025-05-23 17:20:56,613 - INFO - Trial 27: Suggested parameters - {'TEFFMX': 34.86418443833736, 'TSUM1': 1596, 'TSUM2': 1605, 'RUETableRUE_0': 2.878787167319416, 'RUETableRUE_1': 3.589346933122566, 'RUETableRUE_2': 3.6207393110329207, 'RUETableRUE_3': 3.3586210129427387}
-2025-05-23 17:20:56,613 - INFO - Starting Simplace subprocess...
-2025-05-23 17:22:15,638 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:22:15,873 - INFO - Trial 27 completed with loss: 16.1327
-2025-05-23 17:22:15,898 - INFO - Trial 28: Suggested parameters - {'TEFFMX': 37.9539751470338, 'TSUM1': 1492, 'TSUM2': 1486, 'RUETableRUE_0': 2.7506308747933743, 'RUETableRUE_1': 3.871800196317113, 'RUETableRUE_2': 3.435929219060692, 'RUETableRUE_3': 3.061430048096574}
-2025-05-23 17:22:15,898 - INFO - Starting Simplace subprocess...
-2025-05-23 17:23:39,169 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:23:39,384 - INFO - Trial 28 completed with loss: 14.8851
-2025-05-23 17:23:39,406 - INFO - Trial 29: Suggested parameters - {'TEFFMX': 32.08190853969419, 'TSUM1': 1471, 'TSUM2': 1623, 'RUETableRUE_0': 2.670857259020696, 'RUETableRUE_1': 3.3708425571865877, 'RUETableRUE_2': 3.9144462173561587, 'RUETableRUE_3': 3.269597191199079}
-2025-05-23 17:23:39,406 - INFO - Starting Simplace subprocess...
-2025-05-23 17:25:02,736 - INFO - Simplace subprocess completed successfully.
-2025-05-23 17:25:02,997 - INFO - Trial 29 completed with loss: 13.2360
+2025-05-23 18:36:42,780 - INFO - Trial 0: Suggested parameters - {'TEFFMX': 34.672872786831334, 'TSUM1': 1010, 'TSUM2': 1570, 'RUETableRUE_0': 2.984892407870185, 'RUETableRUE_1': 3.990758075928243, 'RUETableRUE_2': 3.6093703141180975, 'RUETableRUE_3': 3.6424502530251135}
+2025-05-23 18:36:42,781 - INFO - Starting Simplace subprocess...
+2025-05-23 18:38:09,418 - INFO - Simplace subprocess completed successfully.
+2025-05-23 18:38:09,419 - INFO - Trial 0: Processing output...
+2025-05-23 18:38:09,661 - INFO - Trial 0 completed with loss: 37.2862
+2025-05-23 18:38:09,661 - INFO - Best is trial 0 with value: 37.2862.
+
+2025-05-23 18:38:09,670 - INFO - Trial 1: Suggested parameters - {'TEFFMX': 39.99301448784331, 'TSUM1': 1110, 'TSUM2': 804, 'RUETableRUE_0': 2.9779307416990752, 'RUETableRUE_1': 3.5838364858030802, 'RUETableRUE_2': 3.6534706847096183, 'RUETableRUE_3': 3.9622877260300546}
+2025-05-23 18:38:09,670 - INFO - Starting Simplace subprocess...
+2025-05-23 18:39:34,751 - INFO - Simplace subprocess completed successfully.
+2025-05-23 18:39:34,751 - INFO - Trial 1: Processing output...
+2025-05-23 18:39:34,975 - INFO - Trial 1 completed with loss: 27.6783
+2025-05-23 18:39:34,975 - INFO - Best is trial 1 with value: 27.6783.
+
+2025-05-23 18:39:34,975 - INFO - Trial 2: Suggested parameters - {'TEFFMX': 28.907677859615795, 'TSUM1': 1362, 'TSUM2': 1587, 'RUETableRUE_0': 3.445763667895668, 'RUETableRUE_1': 3.250497120705777, 'RUETableRUE_2': 3.8252486332920816, 'RUETableRUE_3': 3.8788919555320893}
+2025-05-23 18:39:34,975 - INFO - Starting Simplace subprocess...
+2025-05-23 18:40:58,409 - INFO - Simplace subprocess completed successfully.
+2025-05-23 18:40:58,409 - INFO - Trial 2: Processing output...
+2025-05-23 18:40:58,646 - INFO - Trial 2 completed with loss: 14.2341
+2025-05-23 18:40:58,646 - INFO - Best is trial 2 with value: 14.2341.
+
